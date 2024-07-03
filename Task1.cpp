@@ -61,7 +61,7 @@ int main() {
             cout << "It's a tie!" << endl;
             gameOver = true;
         } else {
-            // Switch to the other player
+            
             currentPlayer = currentPlayer == "X" ? "O" : "X";
         }
     }
